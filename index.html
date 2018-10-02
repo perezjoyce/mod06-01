@@ -9,10 +9,13 @@
 	
 	<h1 id="content">HTML & CSS</h1>
 
+	<h1 id="heading">Welcome to Tuitt Philippines</h1>
+
 	
 	<div id="box"></div>
 
 	<img src="assets/images/1.jpg" id="img">
+	<img src="assets/images/2.jpg" id="newImage">
 
 
 	<br>
@@ -20,90 +23,29 @@
 
 	<span>
 
-		<button onClick="changeHeight()">
+		<button id="changeColorToBlue">
+			Change to blue
+		</button>
+
+		<button id="changeHeight">
 			Change Height
 		</button>
 
 		
-		<button onClick="changeContent()">
+		<button id="changeContent">
 			Change Content
 		</button>
 
-		<button onclick="changeImage()">
+		<button id="changeImage">
 			Change Image
 		</button>
 
-
-
-
-
-
-		<!-- INLINE JS -->
-		<button onCLick="alert('welcome to JS!')">
-			click me!
+		<button id="imahe">
+			Imahe
 		</button>
 
-
-
-		<button onClick="alert('this is inline')">
-			1st click me!
-		</button>
-
-
-		<!-- INTERNAL JS-->
-		<button onClick="joyce()">
-			2nd click me
-		</button>
 
 	</span>
-
-
-
-	<script type="text/javascript">
-		function joyce(){
-			alert('this is internal');
-		}
-	</script>
-
-
-
-	<!-- EXTERNAL -->
-	<!-- SEE SCRIPT.JS -->
-	<button onclick="external_function()">
-		3rd click me
-	</button>
-
-
-
-
-	<!-- ACTIVITY 2 -->
-	<!-- ECMAScript 6 -->
-
-	<script>
-
-	const changeContent = () => {
-		document.getElementById('content').innerHTML = "Welcome to JS!";
-	}
-
-	const changeHeight = () => {
-		document.getElementById('box').style.height = "200px";
-	}
-
-	const changeImage = () => {
-		document.getElementById('img').src = "assets/images/2.jpg";
-	}
-	
-
-	</script>
-
-
-
-
-
-
-
-
-
 
 
 	<script type="text/javascript" src="assets/js/script.js"></script>
